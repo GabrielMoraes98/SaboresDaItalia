@@ -1,0 +1,85 @@
+[
+     {
+        "name":"Macarrão à bolonhesa",
+        "price": 8.99,
+        "available":true,
+        "description":"Espaguete à Bolonhesa, onde a carne moída suculenta é cozida lentamente em um molho encorpado de tomates frescos, ervas aromáticas e um toque de vinho tinto, criando uma explosão de sabores que fará você querer saborear cada garfada!",
+        "ingredients":["Macarrão, Molho de Tomate e carne moída"],
+        "imgUrl":"/imgs/plates/tortellini.png",
+        "category":"First"
+    }
+    ,{
+        "name":"Tortellini em Caldo de Frango",
+        "price": 8.99,
+        "available":true,
+        "description":"Nossos tortellini artesanais, recheados com carne, deslizam suavemente em um caldo de frango aromático, proporcionando aconchego e o verdadeiro sabor da culinária italiana!",
+        "ingredients":["Tortellini caseiro, Caldo de frango"],
+        "imgUrl":"/imgs/plates/tortellini.png",
+        "category":"First"
+    },
+    {
+        "name":"Salada de Camarão e Legumes",
+        "price":10.99,
+        "available":true,
+        "description":"Uma salada colorida e equilibrada, combinando camarões cozidos, vegetais frescos da estação e um molho especial que transformará sua refeição em uma experiência incrível!",
+        "ingredients":["Camarões preparados, Legumes frescos, Molho especial"],
+        "imgUrl":"/imgs/plates/shrimpandVegetableSalad.png",
+        "category":"Side"
+    },
+    {
+        "name":"Salada de Frutos do Mar",
+        "price":7.99,
+        "available":true,
+        "description":"Uma deliciosa salada de frutos do mar, combinando uma seleção especial de ingredientes do oceano, realçados pelo toque sofisticado do azeite de oliva extra virgem, levando você a uma experiência gastronômica inesquecível!",
+        "ingredients":["Frutos do mar variados, Azeite de oliva premium"],
+        "imgUrl":"/imgs/plates/seafoodSalad.png",
+        "category":"Appetizer"
+    },
+    {
+        "name":"Lasanha à Bolonhesa",
+        "price":11.99,
+        "available":true,
+        "description":"Camadas de massa fresca de ovos envolvem um saboroso molho de carne moída e um delicado creme béchamel, criando um prato aconchegante que traz o verdadeiro conforto da cozinha italiana!",
+        "ingredients":["- Molho béchamel, Molho de carne moída, Massa de ovos, Manjericão!"],
+        "imgUrl":"/imgs/plates/lasagna.png",
+        "category":"First"
+    },
+    {
+        "name":"Pão Integral",
+        "price":5.99,
+        "available":true,
+        "description":"Pão integral recém-assado, crocante por fora e macio por dentro, ideal para acompanhar qualquer refeição!",
+        "ingredients":["- Farinha de grãos integrais, Água, Fermento, Sal"],
+        "imgUrl":"/imgs/plates/bread.png",
+        "category":"Other"
+    },
+    {
+        
+        "available":true,
+        "category":"Second",
+        "description":"Almôndegas macias de carne moída, envoltas em um molho de tomate e manjericão, vão surpreender seu paladar a cada garfada!",
+        "imgUrl":"/imgs/plates/meatBalls.png",
+        "ingredients":["Carne moída, Molho de tomate, Manjericão, Manteiga"],
+        "name":"Almôndegas ao Molho de Tomate",
+        "price":11.99
+    },
+    {
+        
+        "price":8.99,
+        "description":"Espadarte defumado com legumes grelhados e sementes de gergelim, uma combinação irresistível de sabores!",
+        "category":"Appetizer",
+        "available":true,
+        "name":"Espadarte defumado com legumes tostado",
+        "ingredients":["- Espadarte defumado, Legumes tostados, Sementes de gergelim"],
+        "imgUrl":"/imgs/plates/swordfish.png"
+    },
+    {
+        "name":"Salmão Grelhado",
+        "price":16.99,
+        "available":true,
+        "description":"Um suculento filé de salmão fresco, grelhado na perfeição e servido com um mix de legumes, garantindo uma explosão de sabor em cada garfada!",
+        "ingredients":["Filé de salmão, Legumes variados"],
+        "imgUrl":"/imgs/plates/grilledSalmon.png",
+        "category":"Second"
+    }
+]

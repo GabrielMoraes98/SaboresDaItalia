@@ -1,0 +1,27 @@
+.footerContainer, .linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8E3440;
+    color: #D4AC0D;
+}
+
+.footerContainer {
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.footerContainer img {
+    width: 7em;
+}
+
+.link {
+    color: #faf0ca;  
+    text-decoration: underline; 
+    margin-bottom: .6em;
+}
+
+.link:hover{
+    opacity: 0.7;
+}

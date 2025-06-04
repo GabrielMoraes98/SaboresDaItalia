@@ -1,0 +1,21 @@
+.popupContainer {
+    background-color: #FDF5E6;
+	color: #2C3E50;
+}
+
+.popupContainer img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.popupContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.ingredients {
+    color: #777777;
+}

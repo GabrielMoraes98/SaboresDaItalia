@@ -1,0 +1,118 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #ecf0f1;
+  --accent-color: #e74c3c;
+  --button-bg: #3498db;
+  --button-hover: #2980b9;
+  --table-header-bg: #f7f7f7;
+  --table-border-color: #ddd;
+  --font-family: 'Roboto', sans-serif;
+}
+
+.dashboardContainer {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+.dashboardContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.dashboardContainer h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: var(--button-bg);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logoutButton {
+  float: right;
+  background-color: var(--accent-color);
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+.userList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.userList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--table-border-color);
+}
+
+.tableContainer {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.8rem;
+  border: 1px solid var(--table-border-color);
+}
+
+.table th {
+  background-color: var(--table-header-bg);
+  font-weight: bold;
+}
+
+.statusSelect {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--table-border-color);
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .dashboardContainer {
+    padding: 1rem;
+  }
+  
+  .dashboardContainer h2 {
+    font-size: 1.5rem;
+  }
+  
+  .dashboardContainer h3 {
+    font-size: 1.2rem;
+  }
+  
+  .button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
