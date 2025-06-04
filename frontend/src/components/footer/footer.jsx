@@ -10,10 +10,6 @@ export default function Footer() {
                     <Link className={styles.link} to={'/plates'}>Pratos</Link>
                     <Link className={styles.link} to={'/profile'}>Perfil</Link>
             </div>
-            <div className={styles.linksContainer}>
-                <p>Desenvolvido por Gabriel Moraes</p>
-                <a target='_blank' className={styles.link} href="https://gabrielmoraes98.github.io/Portfolio/">Acesse Meu Portfólio</a>
-            </div>
         </footer>
     )
 }
